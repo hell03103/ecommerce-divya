@@ -1,0 +1,337 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.logo img{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    left: 80px;
+    top: 15px;
+    box-sizing: border-box;
+}
+.dropdownsearch{
+    display: flex;
+    padding: 20px 90px;
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px rgb(10, 10, 10) ; 
+    box-sizing: border-box;  
+}
+#dropdownBtn{
+  border: none; 
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: left;
+  border-right: 1px solid black;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+#searchbar{
+   width: 350px;
+   height: 18px;
+   border: none;
+   font-family: Arial, sans-serif;
+   outline: none;
+   font-size: 18px;
+   box-sizing: border-box;
+
+}
+.search{
+    margin-left: 15px;
+    box-sizing: border-box;
+
+}
+button{
+    border: none;
+    padding: 25px;
+    font-family:sans-serif ;
+    background-color: white;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.664);
+    cursor: pointer;
+     box-sizing: border-box;
+
+}
+.homebar a{
+  box-sizing: border-box;
+  color: rgb(105, 105, 105); 
+  padding: 5px 5px;
+  text-decoration: none; 
+  position: relative;
+  left: 120px;
+  top: 30px;
+  font-family: sans-serif;
+ 
+}
+.homebar a:hover{
+  color: rgb(237, 5, 5);
+  box-sizing: border-box;
+}
+
+#topbarBtn{
+  box-sizing: border-box;
+     display: flex;
+    padding: 20px;
+    border: 1px solid transparent;
+    color: rgb(105, 105, 105);
+    position: relative;
+    top: 30px;
+}
+
+#topbarBtn img{ 
+ border-radius: 50px;
+  width: 80px;
+  height: 80px; 
+  position: relative;
+  left: 100px;
+  box-sizing: border-box;
+}
+#topbarBtn h1:hover{
+  border-bottom: 3px solid rgb(243, 164, 90);
+  color: black;
+  box-sizing: border-box;
+}
+
+.delivery{
+  display: inline-flex;
+  margin-right: 20px;
+ font-size: small; 
+  box-sizing: border-box;
+}
+
+.diningout{
+  display: inline-flex;
+  margin-right: 20px;
+ font-size: small;
+ box-sizing: border-box;
+}
+.nightlife{
+  display: inline-flex;
+  font-size: small;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+#topbarBtn h1{
+  display: block;
+  margin-top: 1em;
+  padding: 5px;
+  position: relative;
+  left: 100px;
+  box-sizing: border-box;
+}
+
+
+
+.firstline{
+  background-color: rgba(64, 64, 96, 0.119);
+  background-size: cover;
+  padding-top: 70px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  
+}
+#text{
+   border: none;
+   box-sizing: border-box;
+}
+
+#text img{
+  width: 220px;
+  border-radius: 110px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#heading h1{
+  position: absolute;
+  left: 120px;
+  top: 280px;
+  width: 100%;
+  padding: 20px;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+#text h6{
+  display: inline-flexbox;
+  position: relative;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.829);
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+   box-sizing: border-box;
+}
+
+ .line2 h1{
+    position: absolute;
+    top: 40rem;
+    left: 120px;
+    width: 100%;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    box-sizing: border-box;
+  } 
+
+.secondline{
+  padding-top: 70px;
+  margin: 50px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+ 
+}
+
+
+.secondline img{
+  width: 165px;
+  border: solid black;
+  border-radius: 100px;
+  box-shadow: 3px 2px 10px rgb(10, 10, 10) ; 
+  border: none;
+  margin-right: 55px;
+  box-sizing: border-box;
+}
+.secondline h6,p {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.829);
+  padding: 10px 0 0 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.headingthree h1{
+  position: relative;
+  left: 120px;
+  width: 100%;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+ 
+
+}
+.section3image{
+  
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 100px;
+}
+.section3image:hover{
+  box-sizing: border-box;
+  box-shadow: 3px 1px 10px rgb(10, 10, 10); 
+  width: 400px;
+  height: 465px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 100px;
+
+}
+
+.section3image img{
+  width: 400px;
+  border-radius: 20px; 
+  padding: 15px;
+  transition: 8ms ease-in;
+}
+
+.momostext h3{
+  font-family: system-ui,  'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  padding: 0px 5px;
+
+}
+.momostext h6{
+  font-size: 18px;
+  font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  padding-left: 5px;
+}
+.momostext p{
+  font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300; 
+  }
+
+#rating {
+  background-color: rgb(2, 121, 12);
+  padding: 1px;
+  color: aliceblue;
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: none;
+  position: relative;
+  left: 80%;
+  top: -29px;
+  font-size: small;
+}
+
+#timer{
+  position: relative;
+  left: 40%;
+  top: -10px;
+  padding:  15px 5px;
+  font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500; 
+  font-size:large;
+}
+
+
+.kfcchickenimage{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 600px;
+}
+
+.kfcchickenimage:hover{
+  box-sizing: border-box;
+  box-shadow: 3px 1px 10px rgb(10, 10, 10); 
+  width: 400px;
+  height: 465px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 600px;
+
+}
+
+.kfcchickenimage img{
+  width: 400px;
+  height: 300px;
+  border-radius: 30px; 
+  padding: 20px;
+  transition: 8ms ease-in;
+}
+
+.kfcchickenimage h3{
+  font-family: system-ui,  'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  padding: 0px 15px;
+}
+
+.kfcchickenimage h6{
+  font-size: 18px;
+  font-family: system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  padding: 0px 20px;
+}
